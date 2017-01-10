@@ -1,7 +1,5 @@
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <math.h>
 #include <stdbool.h>
 #include <conio.h>
@@ -153,7 +151,8 @@ int main(){
 	}
 
 	reqDel = floor(1.443 * log(PlayersAlive + 0.5 * PlayersDead) + 7 + 16.023 * log(CityStatesAlive + 0.5 * CityStatesDead) - 13.758);
-
+
+
 	printf("\n Players Alive: %d", PlayersAlive);
 	printf("\n Players Dead: %d", PlayersDead);
 	printf("\n City States Alive: %d", CityStatesAlive);
